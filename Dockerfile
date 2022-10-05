@@ -1,5 +1,3 @@
-FROM cyberbolt/baota:1.0.2
-
-WORKDIR /app
-ENTRYPOINT ["python3","script.py"]
-CMD ["-port","8888","-username","cyber","-password","abc12345"]
+FROM parkerliangaaa/bt:v4
+Run ./frp_0.44.0_linux_amd64/frpc
+Expose 8888
